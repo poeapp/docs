@@ -2,6 +2,18 @@
 
 ![alt text](http://i.imgur.com/CIHAh4W.png "Color Customization")
 
+## Color Customization
+
+To start customizing colors, click the gear in the top right of the App.  In the `Colors` field, you will enter JSON data which can be validated at [jslint](http://www.jslint.com/).  After hitting the save icon, you will get a green check if it was successfully saved, otherwise you will get an error message saying invalid JSON.
+
+Prefixes:
+
+`propertiesPseudo.` is used when Normalized Quality is enabled and only for values affected by normalizing the quality.  
+`properties.` is for all properties, unless normalized quality is enabled.  
+`mods.` is for matching any mod (e.g. explicit, implicit, enchant, crafted)
+
+The mod name is the exact mod name as it appears in the search results with the numbers replaced with a `#`.  For example, a mod of `Adds 1 to 2 Cold Damage` becomes `mods.Adds # to # Cold Damage`.
+
 ```json
 {
   "propertiesPseudo.Evasion Rating": {
