@@ -14,6 +14,10 @@ Prefixes:
 
 The mod name is the exact mod name as it appears in the search results with the numbers replaced with a `#`.  For example, a mod of `Adds 1 to 2 Cold Damage` becomes `mods.Adds # to # Cold Damage`.
 
+The allowed CSS properties are as follows:
+
+`'color', 'background-color', 'font-weight', 'text-decoration', 'font-style'`
+
 ```json
 {
   "propertiesPseudo.Evasion Rating": {
