@@ -18,7 +18,15 @@ The mod name is the exact mod name as it appears in the search results with the 
 
 The allowed CSS properties are as follows:
 
-`'color', 'background-color', 'font-weight', 'text-decoration', 'font-style'`
+| CSS Property | Allowed Value |
+| --- | --- |
+| color | #ffffff, rgb(255, 255, 255), rgba(255, 255, 255, 0.5) |
+| background-color | refer to **color** |
+| font-weight | bold, bolder, lighter, _number_ |
+| text-decoration | underline, overline, line-through |
+| font-style | italic, oblique |
+
+### Example Directives
 
 ```json
 {
