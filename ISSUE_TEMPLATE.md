@@ -23,3 +23,4 @@
 - [] IE 11
 - [] iOS Safari
 - [] Android Chrome
+- [] All of the above
