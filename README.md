@@ -62,7 +62,7 @@ For specifying `max` for `[min, max]`, just send a `Number` instead of an `Array
 | sockets.totalWhite | Number | 1-6 | |
 
 
-## Mods
+### Mods
 
 For the mods section, it contains an `Array` of mod groups.  The type options are `and`, `if`, `not`, and `count`.  Each mod group will also contain a `mods` object.  The mods object keys must match the mods as they appear prefixed with `total`, `pseduo`, `explicit`, `implicit`, `crafted`, `enchant`, `prophecy`, `utility`, or `properties`.
 
@@ -86,13 +86,34 @@ mods: {
 }
 ```
 
-## Constructing the URL
+### Constructing the URL
 
 [I'm using this LZString implementation.](http://pieroxy.net/blog/pages/lz-string/index.html)
 
 ```javascript
 var payload = LZString.compressToBase64( JSON.stringify(data) );
 window.location.href = 'https://poeapp.com/#' + payload;
+```
+
+---
+
+## Build a Currency Exchange URL
+
+There are three properties in this JSON object, `need`, `have`, and `league`.  Here is an example of a query for the `Standard` league, looking to buy `Blessing of Chayula` or `Splinter of Chayula` for `Chaos Orb` or `Orb of Fusing`.
+
+```javascript
+{
+  "need": ["Blessing of Chayula", "Splinter of Chayula"],
+  "have": ["Chaos Orb", "Orb of Fusing"],
+  "league": "standard"
+}
+```
+
+To construct the URL:
+
+```javascript
+var payload = encodeURIComponent( JSON.stringify(data) );
+window.location.href = 'https://poeapp.com/currency#' + payload;
 ```
 
 ---
