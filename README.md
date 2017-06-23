@@ -1,5 +1,7 @@
 # [Path of Exile Trading App](https://poeapp.com)
 
+[Follow me on Twitter for updates.](https://twitter.com/subtract)
+
 ## Build a poeapp.com Search URL
 
 Using the following properties, you must construct a JSON object containing your search criteria.  That will then need to be run through LZString that outputs base64.
