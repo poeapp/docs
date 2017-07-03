@@ -32,7 +32,9 @@ StrPutVar(Str, ByRef Var, Enc = "")
 # https://autohotkey.com/docs/Hotkeys.htm#Symbols
 
 F5::
+clipPrev := Clipboard
 Send, ^c
 itemContents := UriEncode(Clipboard)
+Clipboard := clipPrev
 Run, https://poeapp.com/item-import/%itemContents%
 return
