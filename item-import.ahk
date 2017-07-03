@@ -1,4 +1,4 @@
-# https://autohotkey.com/board/topic/35660-url-encoding-function/#entry294368
+; https://autohotkey.com/board/topic/35660-url-encoding-function/#entry294368
 
 UriEncode(Uri, Enc = "UTF-8")
 {
@@ -28,8 +28,8 @@ StrPutVar(Str, ByRef Var, Enc = "")
   Return, StrPut(Str, &Var, Enc)
 }
 
-# F5 can be changed to whatever hotkey works best for you.
-# https://autohotkey.com/docs/Hotkeys.htm#Symbols
+; F5 can be changed to whatever hotkey works best for you.
+; https://autohotkey.com/docs/Hotkeys.htm#Symbols
 
 F5::
 clipPrev := Clipboard
