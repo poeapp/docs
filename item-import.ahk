@@ -1,7 +1,7 @@
 ; HOWTO: https://autohotkey.com/docs/Tutorial.htm#s12
 
-#SingleInstance force
-#SetTitleMatchMode, 3
+;SingleInstance force
+;SetTitleMatchMode, 3
 
 ; https://autohotkey.com/board/topic/35660-url-encoding-function/#entry294368
 
