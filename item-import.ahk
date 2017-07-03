@@ -1,3 +1,5 @@
+; HOWTO: https://autohotkey.com/docs/Tutorial.htm#s12
+
 ; https://autohotkey.com/board/topic/35660-url-encoding-function/#entry294368
 
 UriEncode(Uri, Enc = "UTF-8")
