@@ -1,5 +1,8 @@
 ; HOWTO: https://autohotkey.com/docs/Tutorial.htm#s12
 
+#SingleInstance force
+#SetTitleMatchMode, 3
+
 ; https://autohotkey.com/board/topic/35660-url-encoding-function/#entry294368
 
 UriEncode(Uri, Enc = "UTF-8")
@@ -30,6 +33,8 @@ StrPutVar(Str, ByRef Var, Enc = "")
   Return, StrPut(Str, &Var, Enc)
 }
 
+#ifWinActive, Path of Exile
+
 ; F5 can be changed to whatever hotkey works best for you.
 ; https://autohotkey.com/docs/Hotkeys.htm#Symbols
 
@@ -40,3 +45,5 @@ itemContents := UriEncode(Clipboard)
 Clipboard := clipPrev
 Run, https://poeapp.com/item-import/%itemContents%
 return
+
+#ifWinActive
