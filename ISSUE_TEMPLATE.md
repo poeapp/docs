@@ -1,3 +1,6 @@
+### Did you clear your browser cache before trying to reproduce?
+- [ ] Yes
+
 ### App Version
 <!-- Example: 815663342e8abbd4ec99ec9c234c03452dce01d2 : This can be found at the bottom of https://poeapp.com/settings --->
 
