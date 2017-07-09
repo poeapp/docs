@@ -35,10 +35,10 @@ StrPutVar(Str, ByRef Var, Enc = "")
 
 #ifWinActive, Path of Exile
 
-; F5 can be changed to whatever hotkey works best for you.
+; F8 can be changed to whatever hotkey works best for you.
 ; https://autohotkey.com/docs/Hotkeys.htm#Symbols
 
-F5::
+F8::
 clipPrev := Clipboard
 Send, ^c
 itemContents := UriEncode(Clipboard)
