@@ -69,23 +69,21 @@ For specifying `max` for `[min, max]`, just send a `Number` instead of an `Array
 For the mods section, it contains an `Array` of mod groups.  The type options are `and`, `if`, `not`, and `count`.  Each mod group will also contain a `mods` object.  The mods object keys must match the mods as they appear prefixed with `total`, `pseudo`, `explicit`, `implicit`, `crafted`, `enchant`, `prophecy`, `utility`, or `properties`.
 
 ```javascript
-mods: {
-  [
-    {
-      mods: {
-        "total.#% increased Cold Damage with Weapons": [1, 100]
-      },
-      type: "and"
-    }, {
-      mods: {
-        "total.+# to maximum Life": [80, null],
-        "total.+#% to Cold Resistance": [30, null]
-      },
-      range: [1, null],
-      type: "count"
-    }
-  ]
-}
+mods: [
+  {
+    mods: {
+      "total.#% increased Cold Damage with Weapons": [1, 100]
+    },
+    type: "and"
+  }, {
+    mods: {
+      "total.+# to maximum Life": [80, null],
+      "total.+#% to Cold Resistance": [30, null]
+    },
+    range: [1, null],
+    type: "count"
+  }
+]
 ```
 
 ### Constructing the URL
