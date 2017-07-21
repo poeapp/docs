@@ -11,6 +11,7 @@ For specifying `max` for `[min, max]`, just send a `Number` instead of an `Array
 | Property | Type | Value | Default |
 |---|---|---|---|
 | attributes.corrupted | String | Yes, No | Either |
+| attributes.bricked | String | Yes | Either |
 | attributes.craftedModsCount | String | Yes, No | Either |
 | attributes.enchantModsCount | String | Yes, No | Either |
 | attributes.explicitModsCount | Array | [min, max] | |
