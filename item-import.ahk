@@ -1,3 +1,4 @@
+; Video Guide: https://gfycat.com/ExcitablePettyAmericanavocet
 ; HOWTO: https://autohotkey.com/docs/Tutorial.htm#s12
 
 ;SingleInstance force
