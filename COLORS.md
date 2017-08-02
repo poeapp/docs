@@ -4,7 +4,7 @@
 
 ## Color Customization
 
-To start customizing colors, click the gear in the top right of the App.  In the `Colors` field, you will enter JSON data which can be validated at [jslint](http://www.jslint.com/).  After hitting the save icon, you will get a green check if it was successfully saved, otherwise you will get an error message saying invalid JSON.
+To start customizing colors, click the gear in the top right of the App ([watch the video](https://gfycat.com/achingwillingdrake)).  In the `Colors` field, you will enter JSON data which can be validated at [jslint](http://www.jslint.com/).  After hitting the save icon, you will get a green check if it was successfully saved, otherwise you will get an error message saying invalid JSON.
 
 ### Prefixes
 
