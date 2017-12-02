@@ -121,7 +121,7 @@ window.location.href = 'https://poeapp.com/currency/' + payload;
 
 ## Build an Item Import URL
 
-Say we have the following Ambuser copied from the game, for example.
+Say we have the following Ambusher copied from the game, for example.
 
 ```
 Rarity: Rare
