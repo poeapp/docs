@@ -23,6 +23,13 @@
 3. Click the whisper button for the first item
 -->
 
+### Video (optional)
+
+<!--- Example
+1. Use https://giphy.com/apps/giphycapture to record the problem in the browser
+2. Include the link
+-->
+
 ### Browsers Affected
 <!-- Check all that apply -->
 - [ ] Chrome
