@@ -29,7 +29,7 @@ For specifying `max` for `[min, max]`, just send a `Number` instead of an `Array
 | mods.total.+#% to Cold Resistance | Array | [min, max] | |
 | mods.total.+#% to Fire Resistance | Array | [min, max] | |
 | mods.total.+#% to Lightning Resistance | Array | [min, max] | |
-| online | String | either | Yes |
+| online | String | either, active | Yes |
 | properties.Armour | Array | [min, max] | |
 | properties.Attacks per Second | Array | [min, max] | |
 | properties.Chance to Block | Array | [min, max] | |
