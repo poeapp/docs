@@ -91,7 +91,8 @@ mods: [
 
 If you want to quickly visualize the structure for your query, it is best to first input it into [poeapp](https://poeapp.com) and save it as a preset.  From there you can visit [poeapp's settings](https://poeapp.com/settings) page, click the download arrow to the left of the preset you just created to copy it to your clipboard, and paste it your editor to view.  The `query` portion of that is what you want to encode and send to poeapp.
 
-[I'm using this LZString implementation.](http://pieroxy.net/blog/pages/lz-string/index.html)
+[I'm using this LZString implementation.](http://pieroxy.net/blog/pages/lz-string/index.html)  
+https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js
 
 ```javascript
 var data = {
