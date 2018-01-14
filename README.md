@@ -10,20 +10,20 @@ For specifying `max` for `[min, max]`, just send a `Number` instead of an `Array
 
 | Property | Type | Value | Default |
 |---|---|---|---|
-| attributes.corrupted | String | Yes, No | Either |
-| attributes.bricked | String | Yes | Either |
-| attributes.craftedModsCount | String | Yes, No | Either |
-| attributes.enchantModsCount | String | Yes, No | Either |
+| attributes.corrupted | String | Yes, No | either |
+| attributes.bricked | String | Yes | either |
+| attributes.craftedModsCount | String | Yes, No | either |
+| attributes.enchantModsCount | String | Yes, No | either |
 | attributes.explicitModsCount | Array | [min, max] | |
-| attributes.identified | String | Yes, No | Either |
+| attributes.identified | String | Yes, No | either |
 | attributes.ilvl | Array | [min, max] | |
 | attributes.itemType | String | Body, Boots, Shield, Card, Gem | |
-| attributes.league | String | standard, hardcore, legacy | |
-| attributes.rarity | String | normal, magic, rare, unique | |
-| info.altArt | String | Yes, No | Either |
+| attributes.league | String (lowercase) | standard, hardcore, legacy | |
+| attributes.rarity | String (lowercase) | normal, magic, rare, unique | |
+| info.altArt | String | Yes, No | either |
 | info.tokenized.fullName | String | Kaom's Heart | |
 | info.typeLine | String | Enfeeble | |
-| normalize_quality | String | Yes, No | Either |
+| normalize_quality | String | Yes, No | either |
 | mods.total.+# to maximum Life | Array | [min, max] | |
 | mods.total.+#% to Chaos Resistance | Array | [min, max] | |
 | mods.total.+#% to Cold Resistance | Array | [min, max] | |
@@ -50,7 +50,7 @@ For specifying `max` for `[min, max]`, just send a `Number` instead of an `Array
 | requirements.Level | Array | [min, max] | |
 | requirements.Str | Array | [min, max] | |
 | shop.chaos | Array | [min, max] | |
-| shop.hasPrice | String | Yes, No | Either |
+| shop.hasPrice | String | Yes, No | either |
 | shop.sellerAccount | String | String | |
 | shop.stash.name | String | String | |
 | sockets.largestLinkGroup | Array | [min, max] | |
@@ -92,6 +92,29 @@ mods: [
 [I'm using this LZString implementation.](http://pieroxy.net/blog/pages/lz-string/index.html)
 
 ```javascript
+var data = {
+  "attributes.league": "standard",
+  "attributes.itemType": "Boots",
+  "info.typeLine": "Slink Boots",
+  "attributes.rarity": "rare",
+  "attributes.corrupted": "Yes",
+  "mods": [
+    {
+      "mods": {
+        "implicit.+# to Level of Socketed Gems": [],
+        "total.#% increased Movement Speed": [
+          20,
+          null
+        ],
+        "total.+# to maximum Life": [
+          70,
+          null
+        ]
+      },
+      "type": "and"
+    }
+  ]
+};
 var payload = LZString.compressToBase64( JSON.stringify(data) );
 window.location.href = 'https://poeapp.com/search/' + payload;
 ```
