@@ -44,7 +44,7 @@ clipPrev := Clipboard
 Send, ^c
 itemContents := UriEncode(Clipboard)
 Clipboard := clipPrev
-Run, https://poeapp.com/item-import/%itemContents%?utm_source=poeapp-ahk
+Run, https://poeapp.com?utm_source=poeapp-ahk#/item-import/%itemContents%
 return
 
 #ifWinActive
