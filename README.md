@@ -119,7 +119,7 @@ var data = {
   ]
 };
 var payload = LZString.compressToBase64( JSON.stringify(data) );
-window.location.href = 'https://poeapp.com/search/' + payload;
+window.location.href = 'https://poeapp.com/#/search/' + payload;
 ```
 
 ---
@@ -140,7 +140,7 @@ To construct the URL:
 
 ```javascript
 var payload = encodeURIComponent( JSON.stringify(data) );
-window.location.href = 'https://poeapp.com/currency/' + payload;
+window.location.href = 'https://poeapp.com/#/currency/' + payload;
 ```
 
 ---
@@ -192,4 +192,4 @@ To construct the URL:
 ```javascript
 // itemData contains the text copied from the game
 var payload = encodeURIComponent(itemData);
-window.location.href = 'https://poeapp.com/item-import/' + payload;
+window.location.href = 'https://poeapp.com/#/item-import/' + payload;
