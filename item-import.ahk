@@ -41,7 +41,7 @@ StrPutVar(Str, ByRef Var, Enc = "")
 
 F8::
 clipPrev := Clipboard
-Send, ^c
+Send ^{sc02E}
 itemContents := UriEncode(Clipboard)
 Clipboard := clipPrev
 Run, https://poeapp.com?utm_source=poeapp-ahk#/item-import/%itemContents%
