@@ -1,6 +1,9 @@
 ### Did you clear your browser cache before trying to reproduce?
 - [ ] Yes
 
+### Are you using an incognito window?
+- [ ] Yes
+
 ### Did you disable all browser extensions before trying to reproduce?
 - [ ] Yes
 
