@@ -20,6 +20,7 @@ For specifying `max` for `[min, max]`, just send a `Number` instead of an `Array
 | attributes.itemType | String | Body, Boots, Shield, Card, Gem | |
 | attributes.league | String (lowercase) | standard, hardcore, legacy | |
 | attributes.rarity | String (lowercase) | normal, magic, rare, unique | |
+| in_league | String | Yes, No | Yes |
 | info.altArt | String | Yes, No | either |
 | info.tokenized.fullName | String | Kaom's Heart | |
 | info.typeLine | String | Enfeeble | |
@@ -53,6 +54,7 @@ For specifying `max` for `[min, max]`, just send a `Number` instead of an `Array
 | shop.hasPrice | String | Yes, No | either |
 | shop.sellerAccount | String | String | |
 | shop.stash.name | String | String | |
+| shop.updated | String (enum) | 30m, 1h, 6h, 12h, 1d, 2d, 3d, 1w | |
 | sockets.largestLinkGroup | Array | [min, max] | |
 | sockets.socketCount | Array | [min, max] | |
 | sockets.sortedLinkGroup.B | Number | 1-6 | |
