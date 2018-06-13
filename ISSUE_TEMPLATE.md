@@ -1,3 +1,9 @@
+## I'm submitting a:
+- [ ] Regression (a behavior that used to work and stopped working in a new release)
+- [ ] Bug report  
+- [ ] Feature request
+- [ ] Documentation issue or request
+
 ### Did you clear your browser cache before trying to reproduce?
 - [ ] Yes
 
