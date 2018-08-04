@@ -35,7 +35,7 @@ For specifying `max` for `[min, max]`, just send a `Number` instead of an `Array
 | properties.Attacks per Second | Array | [min, max] | |
 | properties.Chance to Block | Array | [min, max] | |
 | properties.Chaos DPS | Array | [min, max] | |
-| properties.Chaos Damage.avg | Array | [min, max] | |
+| properties.Chaos Damage | Array | [min, max] | |
 | properties.Critical Strike Chance | Array | [min, max] | |
 | properties.Elemental DPS | Array | [min, max] | |
 | properties.Energy Shield | Array | [min, max] | |
@@ -43,7 +43,7 @@ For specifying `max` for `[min, max]`, just send a `Number` instead of an `Array
 | properties.Item Quantity | Array | [min, max] | |
 | properties.Level | Array | [min, max] | |
 | properties.Physical DPS | Array | [min, max] | |
-| properties.Physical Damage.avg | Array | [min, max] | |
+| properties.Physical Damage | Array | [min, max] | |
 | properties.Quality | Array | [min, max] | |
 | properties.Total DPS | Array | [min, max] | |
 | requirements.Dex | Array | [min, max] | |
