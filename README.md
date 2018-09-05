@@ -1,5 +1,9 @@
 # [Path of Exile Trading App](https://poeapp.com)
 
+* [Build a Search URL](#build-a-poeappcom-search-url)
+* [Build a Currency Exchange URL](#build-a-currency-exchange-url)
+* [Build an Item Import URL](#build-an-item-import-url)
+
 [Follow me on Twitter for updates.](https://twitter.com/subtract)
 
 ## Build a poeapp.com Search URL
