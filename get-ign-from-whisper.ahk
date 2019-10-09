@@ -2,5 +2,5 @@
   MouseClick, left
   Var := Clipboard
   Clipboard := RegExReplace( Var,"(\s+).*$","$1" )
-  SoundBeep
+  ;SoundBeep
 return
