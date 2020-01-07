@@ -42,6 +42,7 @@ StrPutVar(Str, ByRef Var, Enc = "")
 F8::
 clipPrev := Clipboard
 Send ^{sc02E}
+Sleep 250
 itemContents := UriEncode(Clipboard)
 Clipboard := clipPrev
 Run, https://poeapp.com/#/item-import/%itemContents%
